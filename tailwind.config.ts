@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				info: {
+					DEFAULT: 'hsl(var(--info))',
+					foreground: 'hsl(var(--info-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +74,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-tactical': 'var(--gradient-tactical)',
+				'gradient-alert': 'var(--gradient-alert)'
+			},
+			boxShadow: {
+				'tactical': 'var(--shadow-tactical)',
+				'alert': 'var(--shadow-alert)'
+			},
+			fontFamily: {
+				'mono': ['JetBrains Mono', 'Consolas', 'Monaco', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
